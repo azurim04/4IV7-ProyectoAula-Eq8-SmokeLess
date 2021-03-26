@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Document</title>
+    <script language="JavaScript" type="text/JavaScript"
+      src="./porque.js/formulario.js"></script>
 </head>
 <body>
     <nav>
         <section>
-            <img src="./Imagenes/TIS LOGO COMPLETO.jpg" width="50%">
+            <img src="./Imagenes/TIS LOGO COMPLETO.jpg" width="30%">
         </section>
         <h1>Contactanos</h1>
         <h2>Technology Innovation Space</h2>
         <h4>Opening paths to the future</h4>
     </nav>
-        <article>
-            <fieldset>
-                <legend><h3>Formulario de contacto</h3></legend>
-                <form action="contacto.html" method="get" onsubmit="">
-                    <p>Nombre: <input type="text" name="nombre" maxlength="200" size="40"></p>
-                    <p>E-mail: <input type="email" name="email" maxlength="1900" size="40"></p>
-                    <p>Télefono: <input type="number" name="tel" maxlength="20" size="20"></p>
-                    <p>Mensaje:
-                    <br>
-                    <textarea name="texto" rows="5" cols="50" placeholder="Escriba su mensaje"></textarea></p> 
-                    <p>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
-                    </p>
-                </form>
-            </fieldset>
-        </article>
+    <fieldset>
+    <legend><h1>Contacto</h1></legend>
+    <form action="" method="post" class="form-register" onsubmit="return validar();">
+        <div class="contedenor-inputs">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48">
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-48" >
+            <input type="text" id="email" name="email" placeholder="E-mail" class="input-100" >
+            <br>
+            <br>
+            <input type="text" id="mensaje" name="mensaje" placeholder="Mensaje" class="input-48" >
+            <input type="submit" value="Enviar" class="btn-enviar">
+        </div>
+    </fieldset>   
+    </form>
     <footer>
         <aside>
             <h4><a href="index.html" >Conocenos</a> 
@@ -42,8 +41,6 @@
         <aside>
             <h4><a href="" >Casos de éxito</a> 
         </aside>
-               
-    </footer>
-    </div>
+    
 </body>
 </html>
