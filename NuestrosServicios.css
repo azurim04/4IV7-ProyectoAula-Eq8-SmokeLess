@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "Nunito";
+    src: url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap")
+}
+
+@font-face{
+    font-family: "XD";
+    src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+}
+
+h1{
+    color: #003459;
+}
+
+#titulo{
+    background-color: #00A8E8;
+    text-align: center;
+    font-family: "Nunito", cursive;
+}
+
+div hr {
+    height: 10px;
+    background-color: #003459;
+    border-color: #003459;
+}
+
+body {
+    font-family: "XD",cursive;
+}
+
+.servicios hr{
+    background-color: #00171F;
+    height: 5px;
+}
+
+.servicios img{
+    width: 20%;
+    display: inline;
+}
+
+.servicios h3{
+    width: 80%;
+    display: inline;
+}
+
+.descripcion {
+    text-align: center;
+}
+
+#agenda, #fumar{
+    display: flex;
+    align-items: center;
+    background-color: #00171F;
+    color: #FFFFFF;
+}
