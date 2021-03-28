@@ -22,7 +22,7 @@
         <div><article>
             <fieldset>
                 <legend><h3>Formulario de contacto</h3></legend>
-                <form action="contacto.html" method="get" onsubmit="">
+                <form action="contacto.html" method="get" onsubmit="return validar();">
                     <p>Nombre: <input type="text" name="nombre" maxlength="200" size="40"></p>
                     <p>E-mail: <input type="email" name="email" maxlength="1900" size="40"></p>
                     <p>Télefono: <input type="number" name="tel" maxlength="20" size="20"></p>
@@ -39,39 +39,15 @@
     <title>Document</title>
     <script language="JavaScript" type="text/JavaScript"
       src="./porque.js/formulario.js"></script>
-</head>
-<body>
-    <nav>
-        <section>
-            <img src="./Imagenes/TIS LOGO COMPLETO.jpg" width="30%">
-        </section>
-        <h1>Contactanos</h1>
-        <h2>Technology Innovation Space</h2>
-        <h4>Opening paths to the future</h4>
-    </nav>
-    <fieldset>
-    <legend><h1>Contacto</h1></legend>
-    <form action="" method="post" class="form-register" onsubmit="return validar();">
-        <div class="contedenor-inputs">
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48">
-            <input type="text" id="telefono" name="telefono" placeholder="Telefono" class="input-48" >
-            <input type="text" id="email" name="email" placeholder="E-mail" class="input-100" >
-            <br>
-            <br>
-            <input type="text" id="mensaje" name="mensaje" placeholder="Mensaje" class="input-48" >
-            <input type="submit" value="Enviar" class="btn-enviar">
-        </div>
-    </fieldset>   
-    </form>
     <footer>
         <aside>
             <h4><a href="index.html" >Conocenos</a> 
         </aside> 
         <aside>
-            <h4><a href="" >Soluciones</a> 
+            <h4><a href="NuestrosServicios.html" >Soluciones</a> 
         </aside>
         <aside>
-            <h4><a href="" >Casos de éxito</a> 
+            <h4><a href="CasosDeExito.html" >Casos de éxito</a> 
         </aside>
                
     </footer>
