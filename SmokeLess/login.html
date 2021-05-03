@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script href="./js/validar.js">
     <title>Iniciar Sesión</title>
 </head>
 <body>
@@ -21,13 +22,13 @@
             </div>
             <br>
             <div class="login-form">
-                <form>
+                <form action="">
                     <div>
                         <label>
                             <h3>Usuario</h3>
                         </label>
                         <br> 
-                        <input type="text" placeholder="Nombre de usuario">
+                        <input type="text" placeholder="Nombre de usuario" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
@@ -36,13 +37,13 @@
                             <h3>Contraseña</h3>
                         </label>
                         <br>
-                        <input type="password" placeholder="Contraseña">
+                        <input type="password" placeholder="Contraseña" class="cadena" maxlenght="10">
                         <br>
                     </div>
                     <br>
                     <input type="checkbox" name="rcontra" value="1">Recordar Contraseña
                     <br>
-                    <input type="button" value="Ingresar">
+                    <input type="submit" value="Ingresar">
                 </form>
             </div>
         </div>
