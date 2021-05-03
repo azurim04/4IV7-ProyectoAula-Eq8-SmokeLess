@@ -31,13 +31,6 @@ header{
 body{
     background-color: white;
 }
-img{
-        float: left;
-        text-align: left;
-        height: 150px;
-        width: 150px;
-        transform: translate(0%,-20%);
-}
 textarea{
     background-color:rgba(71, 211, 134, 0.842);
     height: 200px;
@@ -47,4 +40,32 @@ h3{
     text-align: center;
     padding-bottom: 5rem;
     color: tomato;
+}
+#logo{
+    float: left;
+    text-align: right;
+    height: 150px;
+    width: 150px;
+    transform: translate(0%,-20%);
+}
+#off{
+float: right;
+text-align: left;
+transform: translate(1800%,80%);
+}
+a{
+    float: right;
+    padding-left: 6rem;
+    transform: translate(-250%,100%);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    top: 100%;
+    position: static;
+    transform: translate(0%,700%);
+    color: rgb(43, 43, 43);
 }
