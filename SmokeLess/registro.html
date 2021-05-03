@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/registro.css">
-    <title>Registrar usuario</title>
     <script src="./js/validacion.js"></script>
+    <title>Registrar usuario</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
             <div class="contenido-header">
                 <img src="./IMG/SmokeLess..png" width="50px" height="50px">
-                
             </div>
         </header>
         <br>
@@ -23,13 +22,13 @@
             </div>
             <br>
             <div class="register-form">
-                <form>
+                <form action="login.html" onsubmit="return registro(this)">
                     <div>
                         <label>
                             <h3>Ingrese un nombre</h3>
                         </label>
                         <br> 
-                        <input class="cadena" placeholder="Nombre de usuario" maxlength="20">
+                        <input type="text" placeholder="Nombre de usuario" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
@@ -38,20 +37,20 @@
                             <h3>Ingrese una contraseña</h3>
                         </label>
                         <br>
-                        <input class="cadena" placeholder="Contraseña" maxlength="11">
+                        <input type="text" placeholder="Contraseña" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
                     <div>
                         <label>
-                            <h3>Ingrese de unevo la contraseña</h3>
+                            <h3>Ingrese de nuevo la contraseña</h3>
                         </label>
                         <br>
-                        <input class="cadena" placeholder="Contraseña" maxlength="11">
+                        <input type="text" placeholder="Contraseña" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
-                    <input type="submit" value="Registrar" action="" onclick="registrar(formulario)">
+                    <input type="submit" value="Registrar">
                 </form>
             </div>
         </div>
