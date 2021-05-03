@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/validacion.js"></script>
     <title>Iniciar Sesión</title>
 </head>
 <body>
@@ -12,7 +13,6 @@
         <header class="header">
             <div class="contenido-header">
                 <img src="./IMG/SmokeLess..png" width="50" height="50">
-                
             </div>
         </header>
         <br>
@@ -22,13 +22,13 @@
             </div>
             <br>
             <div class="login-form">
-                <form>
+                <form action="" onsubmit="return login(this)">
                     <div>
                         <label>
                             <h3>Usuario</h3>
                         </label>
                         <br> 
-                        <input class="cadena" placeholder="Nombre de usuario" maxlength="11">
+                        <input type="text" placeholder="Nombre de usuario" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
@@ -37,13 +37,13 @@
                             <h3>Contraseña</h3>
                         </label>
                         <br>
-                        <input class="cadena" placeholder="Contraseña" maxlength="11">
+                        <input type="password" placeholder="Contraseña" class="cadena" maxlenght="10">
                         <br>
                     </div>
                     <br>
                     <input type="checkbox" name="rcontra" value="1"><h5>Recordar Contraseña</h5>
                     <br>
-                    <input type="submit" value="Ingresar" action="">
+                    <input type="submit" value="Ingresar">
                     <div class="Registrate">
             <a href="./registro.html"><h2>¿No tienes una cuenta? ¡Registrate ahora!</h2></a>
         </div>
