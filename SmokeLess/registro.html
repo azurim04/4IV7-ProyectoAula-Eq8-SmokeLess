@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="stylesheet" href="./css/registro.css">
     <title>Registrar usuario</title>
+    <script src="./js/validacion.js"></script>
 </head>
 <body>
     <div class="page">
         <header class="header">
             <div class="contenido-header">
-                <img src="Imagenes/SmokeLess..png" width="50px" height="50px">
+                <img src="./IMG/SmokeLess..png" width="50px" height="50px">
                 
             </div>
         </header>
@@ -28,7 +29,7 @@
                             <h3>Ingrese un nombre</h3>
                         </label>
                         <br> 
-                        <input type="text" placeholder="Nombre de usuario">
+                        <input class="cadena" placeholder="Nombre de usuario" maxlength="20">
                         <br>
                     </div>
                     <br>
@@ -37,7 +38,7 @@
                             <h3>Ingrese una contraseña</h3>
                         </label>
                         <br>
-                        <input type="text" placeholder="Contraseña">
+                        <input class="cadena" placeholder="Contraseña" maxlength="11">
                         <br>
                     </div>
                     <br>
@@ -46,11 +47,11 @@
                             <h3>Ingrese de unevo la contraseña</h3>
                         </label>
                         <br>
-                        <input type="text" placeholder="Contraseña">
+                        <input class="cadena" placeholder="Contraseña" maxlength="11">
                         <br>
                     </div>
                     <br>
-                    <input type="button" value="Registrar">
+                    <input type="submit" value="Registrar" action="" onclick="registrar(formulario)">
                 </form>
             </div>
         </div>
