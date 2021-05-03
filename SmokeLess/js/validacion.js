@@ -32,6 +32,6 @@ function registro(formulario){
 }
 function login(formulario){
     if(validar(formulario)){
-        formulario.action = ""
+        formulario.action = "menu.html"
     }
 }
