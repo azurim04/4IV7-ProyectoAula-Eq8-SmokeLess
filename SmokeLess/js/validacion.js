@@ -4,7 +4,7 @@ function validar(formulario){
     var email = formulario.getElementsByClassName("email")
     var esEmail = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/
     var esNumero = /^[0-9]+$/
-    var esCadena = /([A-Za-z])+\D?/
+    var esCadena = /([A-Za-z])+ ?/
     for(var i=0;i<cadenas.length;i++){
         if (!esCadena.test(cadenas[i].value)){
             alert("recuerda ingresar solo letras y no dejar el espacio vacio")
