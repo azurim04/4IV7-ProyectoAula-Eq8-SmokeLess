@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script href="./js/validar.js">
     <title>Registrar usuario</title>
 </head>
 <body>
@@ -21,13 +22,13 @@
             </div>
             <br>
             <div class="register-form">
-                <form>
+                <form action="login.html" onsubmit="return validar(this)">
                     <div>
                         <label>
                             <h3>Ingrese un nombre</h3>
                         </label>
                         <br> 
-                        <input type="text" placeholder="Nombre de usuario">
+                        <input type="text" placeholder="Nombre de usuario" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
@@ -36,7 +37,7 @@
                             <h3>Ingrese una contraseña</h3>
                         </label>
                         <br>
-                        <input type="text" placeholder="Contraseña">
+                        <input type="text" placeholder="Contraseña" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
@@ -45,11 +46,11 @@
                             <h3>Ingrese de unevo la contraseña</h3>
                         </label>
                         <br>
-                        <input type="text" placeholder="Contraseña">
+                        <input type="text" placeholder="Contraseña" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
-                    <input type="button" value="Registrar">
+                    <input type="submit" value="Registrar">
                 </form>
             </div>
         </div>
