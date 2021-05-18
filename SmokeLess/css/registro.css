@@ -9,8 +9,8 @@ body{
     background-color: white;
 }
 .register{
-    width: 300px;
-    height: 500px;
+    width: 350px;
+    height: 740px;
     color: #fff;
     background-color: rgba(71, 211, 134, 0.842) ;
     background-size: cover;
@@ -20,15 +20,33 @@ body{
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    margin-top: 8rem;
     border-radius: 5%;
 }
 .register label{
-    display: block;
+    display: inline-flex;
 }
 .register input{
+    display: inline-flex;
     width: 100%;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    text-align: left;
 }
+
+#enviar{
+    margin-left: 7rem;
+    width: max-content;
+}
+
+#h, #m{
+    width: max-content;
+    align-items: left;
+    align-content: left;
+    text-align: right;
+    margin-left: 1px;
+    margin: 15px 0;
+}
+
 .contenido-header h2{
     float: right;
     text-align: center;
@@ -62,4 +80,5 @@ footer{
     position: static;
     transform: translate(0%,700%);
     color: rgb(43, 43, 43);
+    margin-top: 10rem;
 }

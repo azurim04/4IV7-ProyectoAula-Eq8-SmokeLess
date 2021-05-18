@@ -33,8 +33,10 @@ body{
 }
 textarea{
     background-color:rgba(71, 211, 134, 0.842);
-    height: 200px;
+    height: 250px;
     color: white;
+    font-size: 18px;
+    width: max-content;
 }
 h3{
     text-align: center;
@@ -51,15 +53,21 @@ h3{
 #off{
 float: right;
 text-align: left;
-transform: translate(1800%,80%);
+transform: translate(1300%,80%);
 }
-a{
+#menu, #pro, #res{
     float: right;
-    padding-left: 6rem;
-    transform: translate(-250%,100%);
+    transform: translate(-280%,100%);
     color: white;
     font-size: 20px;
     text-decoration: none;
+}
+
+#menu{
+    padding-right:4rem;
+}
+#pro{
+    padding-left: 4rem;
 }
 footer{
     background-color: rgb(190, 190, 190);

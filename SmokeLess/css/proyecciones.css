@@ -1,9 +1,4 @@
 
-#menu{
-    display: none;
-
-}
-
 header{
     height: 100px;
     
@@ -31,15 +26,16 @@ body{
         height: 150px;
         width: 150px;
         transform: translate(0%,-20%);
+        padding-right: 1rem;
 }
 #off{
     float: right;
     text-align: left;
-    transform: translate(1800%,100%);
+    transform: translate(1200%,100%);
 }
 .menu{
     width: 80%;
-    height: 500px;
+    height: max-content;
     color: #fff;
     background-color: rgba(71, 211, 134, 0.842) ;
     background-size: cover;
@@ -52,6 +48,7 @@ body{
     
 }
 h1{
+    padding-top: 15rem;
     text-align: center;
     color: white;
 }
@@ -63,12 +60,24 @@ footer{
     position: static;
     transform: translate(0%,700%);
     color: rgb(43, 43, 43);
+    margin-top: 10rem;
 }
-a{
+#menu, #rec, #res{
     float: right;
-    padding-left: 6rem;
-    transform: translate(-250%,100%);
+    transform: translate(-330%,100%);
     color: white;
     font-size: 20px;
     text-decoration: none;
+}
+
+#menu{
+    padding-right:4rem;
+}
+#res{
+    padding-left: 1rem;
+}
+
+#grafica{
+    margin-top: 1rem;
+    padding-left: 11rem;
 }

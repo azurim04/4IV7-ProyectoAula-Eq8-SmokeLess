@@ -25,11 +25,30 @@
                 <form action="" onsubmit="return registro(this)">
                     <div>
                         <label>
-                            <h3>Ingrese un nombre</h3>
+                            <h3>Ingrese un Nombre de usuario</h3>
                         </label>
                         <br> 
                         <input type="text" placeholder="Nombre de usuario" class="cadena" maxlenght="20">
                         <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Ingrese su edad</h3>
+                        </label>
+                        <br> 
+                        <input type="number" placeholder="Edad" class="numero" maxlenght="2">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Selecciona tu sexo</h3>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="genero" value="male" id="h"><label for="h">Masculino</label><br>
+                        <input type="radio" name="genero" value="female" id="m"><label for="m">Femenino</label>
                     </div>
                     <br>
                     <div>
@@ -50,7 +69,7 @@
                         <br>
                     </div>
                     <br>
-                    <input type="submit" value="Registrar">
+                    <input type="submit" value="Registrar" id="enviar">
                 </form>
             </div>
         </div>
