@@ -1,0 +1,76 @@
+header{
+    height: 100px;
+        
+        width: 100%;
+        z-index: 10;
+        
+    
+        padding: 1rem;
+        padding-top: 1rem;
+        background-image: linear-gradient(90deg, rgb(105, 104, 104), #2b2c2c);
+        text-align: center;
+        float: right;
+    }
+
+h1{
+color: white;
+text-align: center;
+padding-top: 1rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.resolv-form{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgba(71, 211, 134, 0.842);
+    color:white;
+    font-size: 18px;
+    width: 960px;
+    margin-left: 17rem;
+}
+footer{
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    top: 100%;
+    position: static;
+    transform: translate(0%,50%);
+    color: rgb(43, 43, 43);
+}
+
+#logo{
+    float: left;
+    text-align: right;
+    height: 150px;
+    width: 150px;
+    transform: translate(0%,-20%);
+}
+#off{
+float: right;
+text-align: left;
+transform: translate(1400%,80%);
+}
+
+#menu, #rec, #pro{
+    float: right;
+    transform: translate(-280%,100%);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu{
+    padding-right:4rem;
+}
+#rec{
+    padding-left: 5rem;
+}

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script href="./js/validar.js">
+    <link rel="stylesheet" href="./css/registro.css">
+    <script src="./js/validacion.js"></script>
     <title>Registrar usuario</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
             <div class="contenido-header">
-                <img src="../SmokeLess/IMG/SmokeLess..png" width="50" height="50">
-                <h2>SmokeLess</h2>
+                <img src="./IMG/SmokeLess..png" width="50px" height="50px">
             </div>
         </header>
         <br>
@@ -22,14 +22,33 @@
             </div>
             <br>
             <div class="register-form">
-                <form action="login.html" onsubmit="return registro(this)">
+                <form action="" onsubmit="return registro(this)">
                     <div>
                         <label>
-                            <h3>Ingrese un nombre</h3>
+                            <h3>Ingrese un Nombre de usuario</h3>
                         </label>
                         <br> 
                         <input type="text" placeholder="Nombre de usuario" class="cadena" maxlenght="20">
                         <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Ingrese su edad</h3>
+                        </label>
+                        <br> 
+                        <input type="number" placeholder="Edad" class="numero" maxlenght="2">
+                        <br>
+                    </div>
+                    <br>
+                    <div>
+                        <label>
+                            <h3>Selecciona tu sexo</h3>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="genero" value="male" id="h"><label for="h">Masculino</label><br>
+                        <input type="radio" name="genero" value="female" id="m"><label for="m">Femenino</label>
                     </div>
                     <br>
                     <div>
@@ -43,14 +62,14 @@
                     <br>
                     <div>
                         <label>
-                            <h3>Ingrese de unevo la contraseña</h3>
+                            <h3>Ingrese de nuevo la contraseña</h3>
                         </label>
                         <br>
                         <input type="text" placeholder="Contraseña" class="cadena" maxlenght="20">
                         <br>
                     </div>
                     <br>
-                    <input type="submit" value="Registrar">
+                    <input type="submit" value="Registrar" id="enviar">
                 </form>
             </div>
         </div>

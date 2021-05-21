@@ -1,0 +1,79 @@
+ul.navega li {
+    display: inline;
+    padding-right: 0.5em;
+    align-items: center;
+  }
+  #menu #desple{
+    display: none;
+
+}
+#menus :hover #desple{
+    display: block;
+}
+header{
+    height: 100px;
+    
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+
+    padding: 1rem;
+    padding-top: 1rem;
+    background-image: linear-gradient(90deg, rgb(105, 104, 104), #2b2c2c);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+   
+}
+body{
+    background-color: white;
+}
+textarea{
+    background-color:rgba(71, 211, 134, 0.842);
+    height: 250px;
+    color: white;
+    font-size: 18px;
+    width: max-content;
+}
+h3{
+    text-align: center;
+    padding-bottom: 5rem;
+    color: tomato;
+}
+#logo{
+    float: left;
+    text-align: right;
+    height: 150px;
+    width: 150px;
+    transform: translate(0%,-20%);
+}
+#off{
+float: right;
+text-align: left;
+transform: translate(1300%,80%);
+}
+#menu, #pro, #res{
+    float: right;
+    transform: translate(-280%,100%);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu{
+    padding-right:4rem;
+}
+#pro{
+    padding-left: 4rem;
+}
+footer{
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    top: 100%;
+    position: static;
+    transform: translate(0%,700%);
+    color: rgb(43, 43, 43);
+}
